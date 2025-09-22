@@ -122,7 +122,7 @@
             "en": [
                 "cleanup function",
                 "re-executes",
-                "component unmount"
+                "component unmounts"
             ],
             "vi": [
                 "hàm cleanup",
