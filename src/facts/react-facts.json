@@ -1,0 +1,13 @@
+[
+    {
+        "id": "react-1",
+        "text": {
+            "en": "A component only rerenders when its parent component rerenders or its state changes.",
+            "vi": "Một component chỉ rerender khi component cha của nó rerender hoặc state của nó thay đổi."
+        },
+        "source": {
+            "name": "Mozilla",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures#closure"
+        }
+    }
+]

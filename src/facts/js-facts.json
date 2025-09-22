@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "js-1",
         "text": {
             "en": "A closure is the combination of a function and the lexical environment within which that function was declared.",
             "vi": "Một closure là sự kết hợp giữa một hàm và môi trường mà trong đó hàm đó được khai báo."
