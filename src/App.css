@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+h1 {
+  line-height: 1.4;
+}
 
 .logo {
   height: 6em;
@@ -48,4 +51,54 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
+  text-align: right;
+}
+
+.multiselect {
+  width: 140px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  text-align: left;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+.actions {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+mark {
+  background: url('/scribble-light.png');
+  background-size: contain;
+  padding: 0 4px;
+  color: yellow;
+  border-radius: 2px;
 }

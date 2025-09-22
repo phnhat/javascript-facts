@@ -8,6 +8,18 @@
         "source": {
             "name": "Mozilla",
             "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures#closure"
+        },
+        "highlights": {
+            "en": [
+                "closure",
+                "a function",
+                "lexical environment"
+            ],
+            "vi": [
+                "closure",
+                "hàm",
+                "môi trường"
+            ]
         }
     }
 ]

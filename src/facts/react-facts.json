@@ -6,8 +6,12 @@
             "vi": "Một component chỉ rerender khi component cha của nó rerender hoặc state của nó thay đổi."
         },
         "source": {
-            "name": "Mozilla",
-            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures#closure"
+            "name": "Developer Way",
+            "href": "https://www.developerway.com/posts/react-re-renders-guide"
+        },
+        "highlights": {
+            "en": ["component", "parent component", "its state"],
+            "vi": ["component", "component cha", "state của nó"]
         }
     }
 ]
