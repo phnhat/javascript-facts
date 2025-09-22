@@ -10,8 +10,211 @@
             "href": "https://www.developerway.com/posts/react-re-renders-guide"
         },
         "highlights": {
-            "en": ["component", "parent component", "its state"],
-            "vi": ["component", "component cha", "state của nó"]
+            "en": [
+                "component",
+                "parent component",
+                "its state"
+            ],
+            "vi": [
+                "component",
+                "component cha",
+                "state của nó"
+            ]
+        }
+    },
+    {
+        "id": "react-2",
+        "text": {
+            "en": "JSX is syntax sugar for React.createElement calls.",
+            "vi": "JSX là cú pháp viết tắt cho các lệnh gọi React.createElement."
+        },
+        "source": {
+            "name": "React Docs",
+            "href": "https://react.dev/learn/writing-markup-with-jsx"
+        },
+        "highlights": {
+            "en": [
+                "JSX",
+                "React.createElement"
+            ],
+            "vi": [
+                "JSX",
+                "React.createElement"
+            ]
+        }
+    },
+    {
+        "id": "react-3",
+        "text": {
+            "en": "A React Component is a function that returns a React Element.",
+            "vi": "Một React component là một hàm trả về một React Element."
+        },
+        "source": {
+            "name": "React Docs",
+            "href": "https://react.dev/learn/your-first-component"
+        },
+        "highlights": {
+            "en": [
+                "React Component",
+                "function",
+                "React Element"
+            ],
+            "vi": [
+                "React Component",
+                "hàm",
+                "React Element"
+            ]
+        }
+    },
+    {
+        "id": "react-4",
+        "text": {
+            "en": "In React, the dependencies array in hooks exists to prevent stale closures.",
+            "vi": "Trong React, dependencies array trong hook tồn tại để giải quyết vấn đề stale closure."
+        },
+        "source": {
+            "name": "Dmitri Pavlutin",
+            "href": "https://dmitripavlutin.com/react-hooks-stale-closures/"
+        },
+        "highlights": {
+            "en": [
+                "dependencies array",
+                "stale closures"
+            ],
+            "vi": [
+                "dependencies array",
+                "stale closure"
+            ]
+        }
+    },
+    {
+        "id": "react-5",
+        "text": {
+            "en": "useRef() is basically useState({current: initialValue })[0].",
+            "vi": "useRef() cơ bản là useState({current: initialValue })[0]."
+        },
+        "source": {
+            "name": "Dan Abramov",
+            "href": "https://x.com/dan_abramov/status/1099842565631819776"
+        },
+        "highlights": {
+            "en": [
+                "useRef()",
+                "useState({current: initialValue })[0]"
+            ],
+            "vi": [
+                "useRef()",
+                "useState({current: initialValue })[0]"
+            ]
+        }
+    },
+    {
+        "id": "react-6",
+        "text": {
+            "en": "In React, a useEffect cleanup function runs: before the effect re-executes and when the component unmounts.",
+            "vi": "Trong React, hàm cleanup của useEffect chạy: trước khi effect chạy lại và khi component bị unmount."
+        },
+        "source": {
+            "name": "React Docs",
+            "href": "https://react.dev/reference/react/useEffect#specifying-effects"
+        },
+        "highlights": {
+            "en": [
+                "cleanup function",
+                "re-executes",
+                "component unmount"
+            ],
+            "vi": [
+                "hàm cleanup",
+                "trước khi effect chạy lại",
+                "unmount"
+            ]
+        }
+    },
+    {
+        "id": "react-7",
+        "text": {
+            "en": "Virtual DOM are just plain JavaScript Object",
+            "vi": "Virtual DOM thực ra chỉ là các JavaScript Object"
+        },
+        "source": {
+            "name": "React Docs",
+            "href": "https://react.dev/learn/preserving-and-resetting-state#how-does-react-know-which-state-to-return"
+        },
+        "highlights": {
+            "en": [
+                "Virtual DOM",
+                "JavaScript Object"
+            ],
+            "vi": [
+                "Virtual DOM",
+                "JavaScript Object"
+            ]
+        }
+    },
+    {
+        "id": "react-8",
+        "text": {
+            "en": "In React, useMemo caches the result of an expensive calculation, while useCallback caches a function.",
+            "vi": "Trong React, useMemo lưu kết quả của một phép tính tốn kém, còn useCallback lưu một hàm."
+        },
+        "source": {
+            "name": "React Docs",
+            "href": "https://react.dev/reference/react/useMemo"
+        },
+        "highlights": {
+            "en": [
+                "useMemo",
+                "cache calculation result",
+                "useCallback",
+                "cache function"
+            ],
+            "vi": [
+                "useMemo",
+                "lưu kết quả tính toán",
+                "useCallback",
+                "lưu hàm"
+            ]
+        }
+    },
+    {
+        "id": "react-9",
+        "text": {
+            "en": "A closure is created when a function component renders.",
+            "vi": "Trong React, mỗi khi một function component render, một closure được tạo ra."
+        },
+        "source": {
+            "name": "Epic React / tkdodo blog",
+            "href": "https://www.epicreact.dev/how-react-uses-closures-to-avoid-bugs"
+        },
+        "highlights": {
+            "en": [
+                "closure",
+                "renders"
+            ],
+            "vi": [
+                "closure",
+                "renders"
+            ]
+        }
+    },
+    {
+        "id": "react-10",
+        "text": {
+            "en": "React component lifecycle consists of three main phases: mount, update and unmount.",
+            "vi": "Vòng đời component trong React bao gồm ba giai đoạn chính: mount, update và unmount."
+        },
+        "source": {
+            "name": "React Docs",
+            "href": "https://react.dev/learn/lifecycle-of-reactive-effects#the-lifecycle-of-an-effect"
+        },
+        "highlights": {
+            "en": [
+                "component lifecycle"
+            ],
+            "vi": [
+                "vòng đời component"
+            ]
         }
     }
 ]

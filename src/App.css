@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
+
 h1 {
   line-height: 1.4;
 }
@@ -52,6 +53,10 @@ h1 {
   top: 1rem;
   right: 1rem;
   text-align: right;
+}
+
+.lang-dropdown {
+  margin-bottom: 0.5rem;
 }
 
 .multiselect {

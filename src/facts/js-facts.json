@@ -6,7 +6,7 @@
             "vi": "Một closure là sự kết hợp giữa một hàm và môi trường mà trong đó hàm đó được khai báo."
         },
         "source": {
-            "name": "Mozilla",
+            "name": "MDN Web Docs",
             "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures#closure"
         },
         "highlights": {
@@ -19,6 +19,213 @@
                 "closure",
                 "hàm",
                 "môi trường"
+            ]
+        }
+    },
+    {
+        "id": "js-2",
+        "text": {
+            "en": "In JavaScript, function declarations and variables declared with var are hoisted to the top of their scope.",
+            "vi": "Trong JavaScript, khai báo hàm và biến khai báo bằng var sẽ được đưa lên đầu phạm vi."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
+        },
+        "highlights": {
+            "en": [
+                "hoisted",
+                "function",
+                "var"
+            ],
+            "vi": [
+                "hoisting",
+                "đưa lên đầu",
+                "var"
+            ]
+        }
+    },
+    {
+        "id": "js-3",
+        "text": {
+            "en": "In JavaScript, the executor function passed to a new Promise runs immediately upon creation.",
+            "vi": "Trong JavaScript, hàm thực thi (executor) được truyền vào new Promise sẽ chạy ngay khi được tạo."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise"
+        },
+        "highlights": {
+            "en": [
+                "new Promise",
+                "executor function",
+                "runs immediately"
+            ],
+            "vi": [
+                "new Promise",
+                "hàm thực thi",
+                "ngay lập tức"
+            ]
+        }
+    },
+    {
+        "id": "js-4",
+        "text": {
+            "en": "In JavaScript, the event loop adds tasks from the queue only when the call stack is empty.",
+            "vi": "Trong JavaScript, event loop chỉ thêm tác vụ từ hàng đợi khi call stack trống."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop"
+        },
+        "highlights": {
+            "en": [
+                "event loop",
+                "task",
+                "empty"
+            ],
+            "vi": [
+                "event loop",
+                "tác vu5F",
+                "trống"
+            ]
+        }
+    },
+    {
+        "id": "js-5",
+        "text": {
+            "en": "Async function always returns a Promise.",
+            "vi": "Một hàm async luôn trả về một Promise."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+        },
+        "highlights": {
+            "en": [
+                "async function",
+                "Promise"
+            ],
+            "vi": [
+                "async function",
+                "Promise"
+            ]
+        }
+    },
+    {
+        "id": "js-6",
+        "text": {
+            "en": "JavaScript has four scopes: global, module, function, and block scope; var ignores block scope, while let and const are block-scoped.",
+            "vi": "JavaScript có bốn phạm vi: toàn cục, module, hàm và khối; var bỏ qua phạm vi khối, trong khi let và const bị giới hạn trong khối."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+        },
+        "highlights": {
+            "en": [
+                "four scopes",
+                "var",
+                "let and const"
+            ],
+            "vi": [
+                "bốn phạm vi",
+                "var",
+                "let và const"
+            ]
+        }
+    },
+    {
+        "id": "js-7",
+        "text": {
+            "en": "A higher-order function is a function that takes other functions as arguments or returns a function.",
+            "vi": "Một higher-order function là hàm nhận hàm khác làm tham số hoặc trả về một hàm."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function"
+        },
+        "highlights": {
+            "en": [
+                "higher-order function",
+                "takes other functions as arguments",
+                "returns a function"
+            ],
+            "vi": [
+                "higher-order function",
+                "nhận hàm khác làm tham số",
+                "trả về một hàm"
+            ]
+        }
+    },
+    {
+        "id": "js-8",
+        "text": {
+            "en": "JavaScript has three comparison operators: == allows type coercion, === requires same type, and Object.is() treats NaN as equal and distinguishes -0 from +0.",
+            "vi": "JavaScript có ba toán tử so sánh: == cho phép ép kiểu, === yêu cầu cùng kiểu, và Object.is() coi NaN bằng nhau và phân biệt -0 với +0."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+        },
+        "highlights": {
+            "en": [
+                "==",
+                "===",
+                "Object.is"
+            ],
+            "vi": [
+                "==",
+                "===",
+                "Object.is"
+            ]
+        }
+    },
+    {
+        "id": "js-9",
+        "text": {
+            "en": "The JavaScript execution model involves three main data structures: the heap, the queue, and the stack.",
+            "vi": "Mô hình thực thi JavaScript bao gồm ba cấu trúc dữ liệu chính: heap, queue và stack."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#agent_execution_model"
+        },
+        "highlights": {
+            "en": [
+                "execution model",
+                "heap",
+                "queue",
+                "stack"
+            ],
+            "vi": [
+                "mô hình thực thi",
+                "heap",
+                "queue",
+                "stack"
+            ]
+        }
+    },
+    {
+        "id": "js-10",
+        "text": {
+            "en": "In JavaScript, the event loop processes all micro-tasks before handling the next macro-task.",
+            "vi": "Trong JavaScript, event loop xử lý toàn bộ micro-task trước khi thực hiện macro-task tiếp theo."
+        },
+        "source": {
+            "name": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"
+        },
+        "highlights": {
+            "en": [
+                "event loop",
+                "micro-tasks",
+                "macro-tasks"
+            ],
+            "vi": [
+                "event loop",
+                "micro-task",
+                "macro-task"
             ]
         }
     }

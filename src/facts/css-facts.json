@@ -1,0 +1,25 @@
+[
+    {
+        "id": "css-1",
+        "text": {
+            "en": "An element with position: absolute is positioned relative to its nearest positioned ancestor.",
+            "vi": "Một phần tử với position: absolute được định vị tương đối so với phần tử cha gần nhất có thuộc tính position."
+        },
+        "source": {
+            "name": "MDN",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/position#absolute"
+        },
+        "highlights": {
+            "en": [
+                "absolute",
+                "relative",
+                "nearest positioned ancestor"
+            ],
+            "vi": [
+                "absolute",
+                "tương đối",
+                "cha gần nhất"
+            ]
+        }
+    }
+]

@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "./App.css";
 import jsFacts from "./facts/js-facts.json";
 import reactFacts from "./facts/react-facts.json";
+import cssFacts from "./facts/css-facts.json";
 import { chromeStorageKeys, defaultValue } from "./constant";
 import { getRandomFact, filterFactsByCategories } from "./utils";
 import HighlightedText from "./components/HighlightedText.jsx";
@@ -32,7 +33,7 @@ function App() {
 
   useEffect(() => {
     const facts = filterFactsByCategories(
-      [...jsFacts, ...reactFacts],
+      [...jsFacts, ...reactFacts, ...cssFacts],
       categories
     );
     const fact = getRandomFact(facts, dismissedFacts);
@@ -74,7 +75,11 @@ function App() {
   return (
     <>
       <div className="language-selector">
-        <select value={lang} onChange={handleLangChange}>
+        <select
+          value={lang}
+          onChange={handleLangChange}
+          className="lang-dropdown"
+        >
           <option value="en">English</option>
           <option value="vi">Tiếng Việt</option>
         </select>
