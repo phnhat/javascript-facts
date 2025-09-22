@@ -1,0 +1,13 @@
+[
+    {
+        "id": "1",
+        "text": {
+            "en": "A closure is the combination of a function and the lexical environment within which that function was declared.",
+            "vi": "Một closure là sự kết hợp giữa một hàm và môi trường mà trong đó hàm đó được khai báo."
+        },
+        "source": {
+            "name": "Mozilla",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures#closure"
+        }
+    }
+]
