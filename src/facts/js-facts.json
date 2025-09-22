@@ -81,12 +81,14 @@
         "highlights": {
             "en": [
                 "event loop",
-                "task",
+                "tasks",
+                "call stack",
                 "empty"
             ],
             "vi": [
                 "event loop",
                 "tác vụ",
+                "call stack",
                 "trống"
             ]
         }
@@ -220,7 +222,7 @@
             "en": [
                 "event loop",
                 "micro-tasks",
-                "macro-tasks"
+                "macro-task"
             ],
             "vi": [
                 "event loop",
